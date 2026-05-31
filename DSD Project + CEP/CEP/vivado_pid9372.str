@@ -1,0 +1,174 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 9372
+License: Customer
+
+Current time: 	Sat May 30 17:37:38 PKT 2026
+Time zone: 	Pakistan Time (Asia/Karachi)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 2
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 46 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	F:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	F:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	RAYYAN
+User home directory: C:/Users/RAYYAN
+User working directory: F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: F:/Xilinx/Vivado
+HDI_APPROOT: F:/Xilinx/Vivado/2018.2
+RDI_DATADIR: F:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: F:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/RAYYAN/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/RAYYAN/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/RAYYAN/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	F:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/vivado.log
+Vivado journal file location: 	F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/vivado.jou
+Engine tmp dir: 	F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/.Xil/Vivado-9372-DESKTOP-5HCU1TC
+
+Xilinx Environment Variables
+----------------------------
+XILINX: F:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: F:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: F:/Xilinx/Vivado/2018.2
+XILINX_SDK: F:/Xilinx/SDK/2018.2
+XILINX_VIVADO: F:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: F:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	195 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 439 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 61 MB (+62004kb) [00:00:28]
+// [Engine Memory]: 439 MB (+308398kb) [00:00:28]
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (ck):  Open Project : addNotify
+// WARNING: HTimer (HMemoryUtils Timer) is taking 2039ms to process. Increasing delay to 6000 ms.
+// Opening Vivado Project: F:\Digital-System-Design-Semester-Project-CEP\DSD Project + CEP\CEP\CEP.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/CEP.xpr} 
+// [Engine Memory]: 472 MB (+12082kb) [00:00:44]
+// HMemoryUtils.trashcanNow. Engine heap size: 491 MB. GUI used memory: 35 MB. Current time: 5/30/26 5:37:55 PM PKT
+// Tcl Message: open_project {F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/CEP.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [Engine Memory]: 502 MB (+6141kb) [00:00:52]
+// HMemoryUtils.trashcanNow. Engine heap size: 502 MB. GUI used memory: 34 MB. Current time: 5/30/26 5:38:02 PM PKT
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/Xilinx/Vivado/2018.2/data/ip'. 
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (bx)
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 544 MB (+18046kb) [00:00:55]
+// Tcl Message: open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:24 . Memory (MB): peak = 748.555 ; gain = 59.371 
+// Project name: CEP; location: F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP; part: xc7a100tcsg324-3
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 65 MB (+146kb) [00:07:20]
+// [GUI Memory]: 68 MB (+201kb) [00:17:05]
+// [GUI Memory]: 72 MB (+527kb) [00:28:11]
+// HMemoryUtils.trashcanNow. Engine heap size: 559 MB. GUI used memory: 38 MB. Current time: 5/30/26 6:08:01 PM PKT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1321 ms. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 559 MB. GUI used memory: 35 MB. Current time: 5/30/26 7:04:34 PM PKT
+// [GUI Memory]: 76 MB (+468kb) [01:42:32]
+// HMemoryUtils.trashcanNow. Engine heap size: 559 MB. GUI used memory: 35 MB. Current time: 5/30/26 7:34:25 PM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 559 MB. GUI used memory: 35 MB. Current time: 5/30/26 8:04:30 PM PKT
+// [GUI Memory]: 80 MB (+414kb) [02:37:35]
+// HMemoryUtils.trashcanNow. Engine heap size: 559 MB. GUI used memory: 35 MB. Current time: 5/30/26 8:34:30 PM PKT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2969 ms. Increasing delay to 4000 ms.
+// [GUI Memory]: 84 MB (+9kb) [03:19:09]
+// HMemoryUtils.trashcanNow. Engine heap size: 559 MB. GUI used memory: 36 MB. Current time: 5/30/26 9:04:37 PM PKT
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 5344 ms. Increasing delay to 5000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 559 MB. GUI used memory: 35 MB. Current time: 5/31/26 12:29:19 AM PKT
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking 2002ms to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 559 MB. GUI used memory: 34 MB. Current time: 5/31/26 3:38:28 PM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 559 MB. GUI used memory: 37 MB. Current time: 5/31/26 4:08:16 PM PKT
+// Elapsed time: 82094 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_nexys (top_nexys.v)]", 1); // B (D, ck)
+// [GUI Memory]: 90 MB (+1666kb) [22:49:17]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_nexys (top_nexys.v), core : mips_core (mips_core.v)]", 2); // B (D, ck)
+// Elapsed time: 12 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_nexys (top_nexys.v), core : mips_core (mips_core.v)]", 2); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_nexys (top_nexys.v), core : mips_core (mips_core.v)]", 2); // B (D, ck)
+// PAPropertyPanels.initPanels (mips_core.v) elapsed time: 0.4s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_nexys (top_nexys.v), core : mips_core (mips_core.v)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_nexys (top_nexys.v), core : mips_core (mips_core.v)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 41 seconds
+typeControlKey((HResource) null, "mips_core.v", 'v'); // ce (w, ck)
+selectCodeEditor("mips_core.v", 103, 55); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 58 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_nexys (top_nexys.v), core : mips_core (mips_core.v)]", 2); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_nexys (top_nexys.v), core : mips_core (mips_core.v), rf : register_file (register_file.v)]", 6, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_nexys (top_nexys.v), core : mips_core (mips_core.v), rf : register_file (register_file.v)]", 6, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 16 seconds
+selectCodeEditor("register_file.v", 276, 230); // ce (w, ck)
+typeControlKey((HResource) null, "register_file.v", 'v'); // ce (w, ck)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("register_file.v", 1, 21); // ce (w, ck)
+// Elapsed time: 11 seconds
+typeControlKey((HResource) null, "register_file.v", 'v'); // ce (w, ck)
+selectCodeEditor("register_file.v", 104, 59); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 76 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "mips_core.v", 1); // k (j, ck)
+// Elapsed time: 15 seconds
+selectCodeEditor("mips_core.v", 30, 251); // ce (w, ck)
+typeControlKey((HResource) null, "mips_core.v", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 140 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_nexys (top_nexys.v)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top_nexys (top_nexys.v)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 25 seconds
+typeControlKey((HResource) null, "top_nexys.v", 'v'); // ce (w, ck)
+selectCodeEditor("top_nexys.v", 94, 60); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking 4050ms to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4923 ms. Increasing delay to 6000 ms.
