@@ -1,5 +1,5 @@
 `timescale 1ns / 1ps
-module program_counter (
+module pc (
     input wire clk, reset,
     input wire [31:0] next_pc,
     output reg [31:0] pc

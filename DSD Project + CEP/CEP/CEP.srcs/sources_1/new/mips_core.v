@@ -1,9 +1,10 @@
 `timescale 1ns / 1ps
 module mips_core (
     input wire clk, reset,
+    input wire [4:0] reg_sel,          // NEW: selects which register to read for display
     output wire [31:0] pc_out, alu_result, mem_read_data, write_data_to_mem,
-    output reg illegal_inst,
-    output reg halt         // optional: becomes 1 when program finishes
+    output wire [31:0] reg_display_out, // NEW: value of register selected by reg_sel
+    output reg illegal_inst, halt
 );
     wire [31:0] pc, next_pc, instr;
     wire [31:0] read_data1, read_data2, imm32, alu_in2, alu_out, mem_readdata;
@@ -27,10 +28,12 @@ module mips_core (
                      .illegal(illegal_ctrl));
     
     // Register File
-    register_file rf (.clk(clk), .reg_write(reg_write),
-                      .read_reg1(instr[25:21]), .read_reg2(instr[20:16]),
+    register_file rf (.clk(clk), .reg_write(reg_write), .read_reg1(instr[25:21]),
+                      .read_reg2(instr[20:16]), .read_reg3(reg_sel), // from top-level input
                       .write_reg(write_reg), .write_data(mem_to_reg ? mem_readdata : alu_out),
-                      .read_data1(read_data1), .read_data2(read_data2));
+                      .read_data1(read_data1), .read_data2(read_data2),
+                      .read_data3(reg_display_out) // connect to output
+                      );
     
     assign write_reg = reg_dst ? instr[15:11] : instr[20:16];
     
