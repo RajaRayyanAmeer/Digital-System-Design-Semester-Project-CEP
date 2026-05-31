@@ -172,3 +172,18 @@ selectCodeEditor("top_nexys.v", 94, 60); // ce (w, ck)
 // TclEventType: DG_GRAPH_GENERATED
 // WARNING: HTimer (ExpRunMonitor Open Timer) is taking 4050ms to process. Increasing delay to 6000 ms.
 // WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 4923 ms. Increasing delay to 6000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 559 MB. GUI used memory: 39 MB. Current time: 5/31/26 4:38:21 PM PKT
+// Elapsed time: 359 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, mips_tb (mips_tb.v)]", 6, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, mips_tb (mips_tb.v)]", 6, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 42 seconds
+typeControlKey((HResource) null, "mips_tb.v", 'v'); // ce (w, ck)
+selectCodeEditor("mips_tb.v", 135, 12); // ce (w, ck)
+// Elapsed time: 13 seconds
+selectCodeEditor("mips_tb.v", 85, 399); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED

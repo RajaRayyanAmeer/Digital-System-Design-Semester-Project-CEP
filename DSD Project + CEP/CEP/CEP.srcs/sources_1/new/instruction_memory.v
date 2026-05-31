@@ -19,7 +19,7 @@ module instruction_memory (
             mem[7] = 32'hAD0A0000;
             mem[8] = 32'h8D070000;
             mem[9] = 32'h11290002;
-            mem[10]= 32'h0800000C;
+            mem[10] = 32'h0800000B;   // j to word address 11 (44 decimal)
             mem[11]= 32'h00000020;   
             
             // fill rest with nop

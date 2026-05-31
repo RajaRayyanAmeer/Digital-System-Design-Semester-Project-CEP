@@ -1,0 +1,17 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/CEP.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/CEP.srcs/sim_1/new/mips_tb.v,1780227686,verilog,,,,mips_tb,,,,,,,,
+F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/CEP.srcs/sources_1/new/alu.v,1780132213,verilog,,F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/CEP.srcs/sources_1/new/alu_control.v,,alu,,,,,,,,
+F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/CEP.srcs/sources_1/new/alu_control.v,1780132364,verilog,,F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/CEP.srcs/sources_1/new/control_unit.v,,alu_control,,,,,,,,
+F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/CEP.srcs/sources_1/new/control_unit.v,1780132645,verilog,,F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/CEP.srcs/sources_1/new/data_memory.v,,control_unit,,,,,,,,
+F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/CEP.srcs/sources_1/new/data_memory.v,1780132917,verilog,,F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/CEP.srcs/sources_1/new/instruction_memory.v,,data_memory,,,,,,,,
+F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/CEP.srcs/sources_1/new/display_7seg.v,1780133773,verilog,,F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/CEP.srcs/sources_1/new/instruction_memory.v,,display_7seg,,,,,,,,
+F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/CEP.srcs/sources_1/new/instruction_memory.v,1780131898,verilog,,F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/CEP.srcs/sources_1/new/mips_core.v,,instruction_memory,,,,,,,,
+F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/CEP.srcs/sources_1/new/mips_core.v,1780227174,verilog,,F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/CEP.srcs/sources_1/new/program_counter.v,,mips_core,,,,,,,,
+F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/CEP.srcs/sources_1/new/program_counter.v,1780135968,verilog,,F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/CEP.srcs/sources_1/new/register_file.v,,pc,,,,,,,,
+F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/CEP.srcs/sources_1/new/register_file.v,1780227001,verilog,,F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/CEP.srcs/sources_1/new/sign_extend.v,,register_file,,,,,,,,
+F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/CEP.srcs/sources_1/new/sign_extend.v,1780132992,verilog,,F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/CEP.srcs/sim_1/new/mips_tb.v,,sign_extend,,,,,,,,
+F:/Digital-System-Design-Semester-Project-CEP/DSD Project + CEP/CEP/CEP.srcs/sources_1/new/top_nexys.v,1780227368,verilog,,,,top_nexys,,,,,,,,
